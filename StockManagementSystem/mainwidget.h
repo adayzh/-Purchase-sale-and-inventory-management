@@ -16,6 +16,7 @@
 #include"add.h"
 #include"in.h"
 #include"output.h"
+#include"datasum.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWidget; }

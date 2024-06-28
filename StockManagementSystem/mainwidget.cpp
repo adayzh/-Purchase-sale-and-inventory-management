@@ -3,6 +3,7 @@
 #include"add.h"
 #include"in.h"
 #include"output.h"
+#include"datasum.h"
 MainWidget::MainWidget(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::MainWidget)
@@ -184,7 +185,7 @@ void MainWidget::on_ExportButton_clicked()
         if(strFileName!=NULL)
         {
             QAxObject *excel=new QAxObject;
-            if(excel->setControl("Excel.Application"));
+            if(excel->setControl("Excel.Application"))
             {
                 excel->dynamicCall("SetVisible (bool Visible)",false);
                 excel->setProperty("DisplayAlerts",false);
@@ -228,7 +229,8 @@ void MainWidget::on_ExportButton_clicked()
 
 void MainWidget::on_SummaryButton_clicked()
 {
-
+    Datasum *dsdlg=new Datasum();
+        dsdlg->show();
 }
 
 void MainWidget::refreshTableWidget()

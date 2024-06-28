@@ -19,6 +19,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     add.cpp \
+    datasum.cpp \
     in.cpp \
     main.cpp \
     mainwidget.cpp \
@@ -26,12 +27,14 @@ SOURCES += \
 
 HEADERS += \
     add.h \
+    datasum.h \
     in.h \
     mainwidget.h \
     output.h
 
 FORMS += \
     add.ui \
+    datasum.ui \
     in.ui \
     mainwidget.ui \
     output.ui
