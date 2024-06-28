@@ -13,8 +13,8 @@
 #include<QtDebug>
 #include<QTableWidgetItem>
 #include<QStringList>
-#include"add.h"
-#include"in.h"
+#include"addproduct.h"
+#include"input.h"
 #include"output.h"
 #include"datasum.h"
 

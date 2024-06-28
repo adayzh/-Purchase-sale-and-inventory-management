@@ -1,4 +1,4 @@
-#include "add.h"
+#include "addproduct.h"
 #include "ui_add.h"
 #include<QDateTime>
 #include<QSqlQuery>

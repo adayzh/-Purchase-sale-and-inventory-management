@@ -1,4 +1,4 @@
-#include "in.h"
+#include "input.h"
 #include "ui_in.h"
 #include"mainwidget.h"
 

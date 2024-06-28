@@ -1,7 +1,7 @@
 #include "mainwidget.h"
 #include "ui_mainwidget.h"
-#include"add.h"
-#include"in.h"
+#include"addproduct.h"
+#include"input.h"
 #include"output.h"
 #include"datasum.h"
 MainWidget::MainWidget(QWidget *parent)

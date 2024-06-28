@@ -18,24 +18,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    add.cpp \
+    addproduct.cpp \
     datasum.cpp \
-    in.cpp \
+    input.cpp \
     main.cpp \
     mainwidget.cpp \
     output.cpp
 
 HEADERS += \
-    add.h \
+    addproduct.h \
     datasum.h \
-    in.h \
+    input.h \
     mainwidget.h \
     output.h
 
 FORMS += \
-    add.ui \
+    addproduct.ui \
     datasum.ui \
-    in.ui \
+    input.ui \
     mainwidget.ui \
     output.ui
 
