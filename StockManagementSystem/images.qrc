@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/Add.png</file>
+        <file>images/Close8a8a8a.png</file>
+        <file>images/DataSummary.png</file>
+        <file>images/Delete.png</file>
+        <file>images/Find.png</file>
+        <file>images/In.png</file>
+        <file>images/logo.png</file>
+        <file>images/Open.png</file>
+        <file>images/Out.png</file>
+        <file>images/UpdateData.png</file>
+    </qresource>
+</RCC>
